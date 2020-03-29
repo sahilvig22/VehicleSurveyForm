@@ -2,7 +2,7 @@ body{
   background-color: aqua;
 }
 #showcase {
-  background: url("../images/main.jpeg") bottom center/cover no-repeat;
+  background: url("./images/main.jpeg") bottom center/cover no-repeat;
   min-height: 750px;
   position: relative; }
   #showcase #header {
