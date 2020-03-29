@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <title>Document</title>
+</head>
+
+<body>
+
+  <section id="showcase" class="d-flex justify-content-center align-items-center">
+    <div id="overlay"></div>
+    <div id="header" class="container text-white">
+      <h1 id="title" class="display-5 mb-0 text-center pt-4">Vehicle Survey Form</h1>
+      <!-- <h1 class="display-1">AURORA GROVE</h1> -->
+      <p id="description" class="lead d-none d-md-block text-center">Sahil Vig Pvt Ltd. is always happy to help. </p>
+
+      <form action="" id="survey-form">
+
+        <div class="form-group">
+          <label for="name-label">Name:</label>
+          <input type="text" name="" class="form-control" id="name-label" autocomplete="off"
+            placeholder="Enter your name">
+        </div>
+
+        <div class="form-group">
+          <label for="emaillabel">Email Address:</label>
+          <input type="email" id="emaillabel" class="form-control" placeholder="Enter your email">
+        </div>
+
+        <div class="form-group">
+          <label for="number">Number:</label>
+          <input type="number" id="number" class="form-control" placeholder="Enter your number">
+        </div>
+
+
+        <div class="form-group">
+          <label for="select">Select year of purchase</label>
+          <select id="select" class="form-control" placeholder="asd">
+            <option value="" selected disabled>Please select</option>
+            <option>2015</option>
+            <option>2016</option>
+            <option>2017</option>
+            <option>2018</option>
+            <option>2019</option>
+          </select>
+        </div>
+
+        <br>
+        <p>Select type of vehicle: </p>
+
+        <div class="radio">
+          <label><input type="radio" name="optradio" checked>Two Wheeler</label>
+        </div>
+        <div class="radio">
+          <label><input type="radio" name="optradio">Four Wheeler</label>
+        </div>
+
+        <!-- <div class="radio disabled">
+          <label><input type="radio" name="optradio" disabled>Option 3</label>
+        </div> -->
+        <br>
+        <p>Tick the free services you availed:</p>
+
+        <div class="checkbox">
+          <label><input type="checkbox" value=""> First</label>
+        </div>
+        <div class="checkbox">
+          <label><input type="checkbox" value=""> Second</label>
+        </div>
+        <div class="checkbox disabled">
+          <label><input type="checkbox" value=""> Third</label>
+        </div>
+        <br>
+        <div class="form-group">
+          <label for="textarea">Please type in your review : </label>
+          <textarea id="textarea" class="form-control" rows="4"></textarea>
+        </div>
+
+      </form>
+
+      <button id="book" class="btn btn-lg btn-primary px-5 mt-3 mb-3" data-toggle="modal"
+        data-target="#bookingModal">Submit</button>
+    </div>
+  </section>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
